@@ -1,3 +1,59 @@
+.Maindivclass{
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+#_titlefont{
+  font-size:smaller;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#_fontColor
+{
+  font-size: smaller;
+  font-weight: 100;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.CardCompoent {
+  height: 15vmax;
+  width: 17vmax;
+  border: 1px solid black;
+  margin-left: 2%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2%;
+}
+
+.Imagediv {
+  width: 15vmax;
+  height:17vmax;
+  border: 1px solid yellow;
+  border-radius: 2%;
+
+  /* width: 25vmax;
+  height: 12.5vmax;
+  border: 1px solid yellow; */
+}
+.Imagediv{
+  height: 100%;
+  width: 100%;
+
+}
+.Tempimage
+{
+  height: 20px;
+  width: 20px;
+  border: 1px solid yellow;
+}
+
 .App {
   text-align: center;
 }
